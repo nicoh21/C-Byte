@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  background-color: #FCFCFC;
+  width: 527px;
+  height: 739px;
+  border: solid 1px #dedede;
+  border-radius: 5px;
+  box-shadow: -1px 7px 8px -5px #00000024;
+  margin-top: 143px;
+  margin-bottom: 142px;
+  margin-left: 457px;
+  padding: 0; }
+
+header .headerText {
+  display: flex;
+  padding-left: 25px;
+  padding-top: 3px;
+  padding-bottom: 8px; }
+  header .headerText .img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25%;
+    padding-top: 10px; }
+  header .headerText .textt {
+    padding-left: 25px; }
+    header .headerText .textt .pName {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16.94px;
+      margin-bottom: 9px; }
+    header .headerText .textt .pLoc {
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 12.1px; }
+
+.mainCarou {
+  height: 325px; }
+
+.buttons {
+  padding-top: 17px; }
+  .buttons .like {
+    padding-left: 25px; }
+  .buttons .comment {
+    padding-left: 12px; }
+  .buttons .message {
+    padding-left: 12px; }
+
+.LucasC {
+  height: 30px;
+  font-size: 12px;
+  font-weight: 400px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 20px; }
+
+.pComment {
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 30px; }
+
+.rec4 {
+  background-color: #f1f1f1;
+  display: flex;
+  height: 55px;
+  margin: 115px 24px 25px 25px;
+  padding-left: 20px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 400; }
+  .rec4 p {
+    padding-top: 8px; }
+  .rec4 .p2 {
+    padding-left: 120px;
+    font-weight: 700;
+    color: #3D8AFF; }

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Inter?query=inter#standard-styles">
+    <title>Landpage</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <section class="headerText">
+                <div>
+                    <img class="img" src="img/picture.png" alt="">
+                </div>
+                <div class="textt">
+                    <p class="pName">Erik Dunlop</p>
+                    <p class="pLoc">San Francisco, California</p>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section>
+                <div class="swiper mySwiper mainCarou">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"> <img src="img/mainImage.png" alt=""></div>
+                      <div class="swiper-slide"> <img src="img/mainImage.png" alt=""></div>
+                      <div class="swiper-slide"><img src="img/mainImage.png" alt=""></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+              
+                  <!-- Swiper JS -->
+                  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+              
+                  <!-- Initialize Swiper -->
+                  <script>
+                    var swiper = new Swiper(".mySwiper", {
+                      cssMode: true,
+                      navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                      },
+                      pagination: {
+                        el: ".swiper-pagination",
+                      },
+                      mousewheel: true,
+                      keyboard: true,
+                    });
+                  </script>
+                
+
+                  <div class="buttons" >
+                    <img class="like" src="img/like.svg" alt="">
+                    <img class="comment" src="img/comment.png" alt="">
+                    <img class="message" src="img/message.png" alt="">
+                  </div>
+            </section>
+            
+            <section>
+                <div class="LucasC">
+                    <p> <strong>Lucas Credie</strong> dolor amet, consectetur adipiscing elit. Mi enim ut eu cras ultrices eget et tristique proin. Mi enim ut eu cras ultrices eget et tristique proin.</p>
+                </div>
+    
+                <div class="pComment">
+                    <p><strong>Comment</strong> consectetur adipiscing elit. Mi enim ut eu cras ultrices eget et</p>  
+                </div>
+
+                <div class="rec4">
+                    <p class="p1">consectetur adipiscing elit. Mi enim ut eu cras ultrices eget et </p>
+                    <p class="p2">Post</p>
+                </div>
+            </section>
+
+              
+    
+        </main>
+        <footer>
+    
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
+</html>
